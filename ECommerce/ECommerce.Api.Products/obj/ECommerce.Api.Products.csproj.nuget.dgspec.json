@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2268268\\Downloads\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {}
+    "C:\\Users\\2268268\\Documents\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2268268\\Downloads\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
+    "C:\\Users\\2268268\\Documents\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2268268\\Downloads\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+        "projectUniqueName": "C:\\Users\\2268268\\Documents\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
         "projectName": "ECommerce.Api.Products",
-        "projectPath": "C:\\Users\\2268268\\Downloads\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+        "projectPath": "C:\\Users\\2268268\\Documents\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
         "packagesPath": "C:\\Users\\2268268\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2268268\\Downloads\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\obj\\",
+        "outputPath": "C:\\Users\\2268268\\Documents\\web-miletone-4\\ECommerce\\ECommerce.Api.Products\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
