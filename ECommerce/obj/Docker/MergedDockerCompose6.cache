@@ -1,0 +1,57 @@
+name: dockercompose4797873756348118511
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Users\2268268\Documents\web-miletone-4\ECommerce
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+  ecommerce.api.orders:
+    build:
+      context: C:\Users\2268268\Documents\web-miletone-4\ECommerce
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiorders
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+  ecommerce.api.products:
+    build:
+      context: C:\Users\2268268\Documents\web-miletone-4\ECommerce
+      dockerfile: ECommerce.Api.Products\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiproducts
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+  ecommerce.api.search:
+    build:
+      context: C:\Users\2268268\Documents\web-miletone-4\ECommerce
+      dockerfile: ECommerce.Api.Search\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapisearch
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose4797873756348118511_default
